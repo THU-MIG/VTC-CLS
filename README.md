@@ -9,7 +9,7 @@ Our VTC-CLS is simple and can serve as a plug-and-play method to accelerate the 
 
 ## Environmental Setup
 ```bash
-conda create -n prefixkv python=3.8
+conda create -n VTC-CLS python=3.10
 pip install -r requirements.txt
 ```
 - Download [LLaVA-1.5-7B](https://huggingface.co/Zuyan/ElasticCache/tree/main/llava-v1.5-7b) and put it at `../models/`.
