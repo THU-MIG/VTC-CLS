@@ -5,25 +5,21 @@ run_pope() {
             --model-path $CKPT \
             --question-file ../data/eval/pope/llava_pope_test.jsonl \
             --image-folder ../data/coco2014/val2014 \
-            --answers-file ../data/eval/pope/answers/$method/$token_num.jsonl \
+            --answers-file ../data/eval/pope/answers/$method.jsonl \
             --temperature 0 \
             --conv-mode vicuna_v1 \
             --dataset-name pope \
-            --layer $layer \
-            --token_num $token_num \
 
             
         python llava/eval/eval_pope.py \
             --annotation-dir ../data/pope/output/coco \
             --question-file ../data/eval/pope/llava_pope_test.jsonl \
-            --result-file ../data/eval/pope/answers/$method/$token_num.jsonl
+            --result-file ../data/eval/pope/answers/$method.jsonl
     "
 }
 
 method=reproduce
 CKPT=../models/LLaVA-v1.5-7b
-GPU_ID=7
-layer=$1
-token_num=$2
+GPU_ID=5
 
-run_pope $GPU_ID $layer $method $CKPT $token_num
+run_pope $GPU_ID $method $CKPT

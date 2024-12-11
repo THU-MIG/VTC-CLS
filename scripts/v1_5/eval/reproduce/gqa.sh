@@ -33,6 +33,6 @@ run_gqa(){
 method=reproduce
 layer=0
 stride=1
-CKPT=/home/chenhui/sunfengyuan/models/LLaVA-v1.5-13B
+CKPT=/home/chenhui/sunfengyuan/models/LLaVA-v1.5-7b
 
-run_gqa $CKPT $layer $method $NAME
+run_gqa $CKPT $method
