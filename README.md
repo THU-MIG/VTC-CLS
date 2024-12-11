@@ -24,3 +24,12 @@ We tested our VTC-CLS method on various models with different compression ratios
 We measure the evaluation time and show our method can effectively speed-up the inference process of MLLMs. We display the inference time of LLaVA-v1.5-7B on some test datasets before and after applying our VTC-CLS method. 
 
 ![](./figures/latency.png)
+
+## Acknowledgement
+Our codebase is partly built with [LLaVolta](https://github.com/Beckschen/LLaVolta/tree/main).
+
+Thanks for the great implementations!
+
+## Citation
+If our code or models help your work, please cite our paper:
+TODO
