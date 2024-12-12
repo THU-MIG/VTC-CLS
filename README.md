@@ -119,4 +119,11 @@ Thanks for the great implementations!
 
 ## Citation
 If our code or models help your work, please cite our paper:
-TODO
+```BibTeX
+@article{wang2024cls,
+  title={[CLS] Token Tells Everything Needed for Training-free Efficient MLLMs},
+  author={Wang, Ao and Sun, Fengyuan and Chen, Hui and Lin, Zijia and Han, Jungong and Ding, Guiguang},
+  journal={arXiv preprint arXiv:2412.05819},
+  year={2024}
+}
+```
