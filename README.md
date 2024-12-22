@@ -5,6 +5,7 @@ This is the official implementation of VTC-CLS, a state-of-the-art effective met
 Our VTC-CLS is simple and can serve as a plug-and-play method to accelerate the inference of MLLMs in a training free manner, showing high practicality.
 
 ## News
+- [x] [2024.12.08] our [paper](https://arxiv.org/abs/2412.05819) has been submitted to arxiv.org
 - [x] [2024.12.10] we open-sourced our code!
 
 ## Environmental Setup
