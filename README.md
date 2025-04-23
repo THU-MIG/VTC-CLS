@@ -13,7 +13,7 @@ Our VTC-CLS is simple and can serve as a plug-and-play method to accelerate the 
 conda create -n VTC-CLS python=3.10
 pip install -r requirements.txt
 ```
-- Download [LLaVA-1.5-7B](https://huggingface.co/Zuyan/ElasticCache/tree/main/llava-v1.5-7b) and put it at `../models/`.
+- Download [LLaVA-1.5-7B](https://huggingface.co/liuhaotian/llava-v1.5-7b) and put it at `../models/`.
 
 ## Performance
 We tested our VTC-CLS method on various models with different compression ratios, and display LLaVA results here. Compared with existing methods including FastV and LLaVA-prumerge, our method is state-of-the-art in training-free manner.
